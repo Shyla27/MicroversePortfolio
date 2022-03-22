@@ -1,0 +1,23 @@
+{
+  "name": "shyeecodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shyla27/microverseportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shyla27/microverseportfolio/issues"
+  },
+  "homepage": "https://github.com/Shyla27/microverseportfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
+}
