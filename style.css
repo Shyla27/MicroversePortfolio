@@ -1,3 +1,11 @@
+body {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+}
+
 header {
   background-color: #3c3a39;
   color: white;
@@ -48,4 +56,131 @@ nav {
   align-items: center;
   justify-content: space-around;
   width: 45%;
+}
+
+#projects {
+  padding: 0 1.5rem 6rem 1.5rem;
+  position: relative;
+}
+
+#projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#h2-projects {
+  color: #1c1a19;
+  font-family: "Crete Round", sans-serif;
+  font-weight: normal;
+  font-size: 2.3rem;
+  text-align: center;
+  margin: 6rem 0 3rem 0;
+  border-bottom: 1px solid #212121;
+}
+
+#main-image-div {
+  display: flex;
+  justify-content: center;
+}
+
+#orange-project {
+  display: block;
+  width: 80vw;
+}
+
+#main-project-content {
+  padding: 0 1rem 0 0.5rem;
+}
+
+#orange-h3 {
+  font-family: "Crete Round", sans-serif;
+  color: #091e42;
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+#orange-p {
+  font-family: "Inter", sans-serif;
+  color: #091e42;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-family: "Crete Round", sans-serif;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 0 0 1.2rem 0.6rem;
+}
+
+div.mini-projects p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0 0 0.6rem 0.6rem;
+}
+
+.box {
+  border: 1px solid #8993a4;
+  font-family: "Inter", sans-serif;
+  color: #091e42;
+  padding: 0.6rem 0.7rem;
+  display: inline;
+  font-size: 1rem;
+}
+
+.language-container {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.mini-languages-container {
+  display: flex;
+  gap: 1rem;
+  padding: 0 0 1.5rem 0.6rem;
+}
+
+.mini-projects {
+  background-image: url("images/Img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.mini-box {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 0.6rem 0.7rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+
+button,
+#submit {
+  background-color: #fc6703;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+}
+
+#main-project-button {
+  margin-top: 0.7rem;
+}
+
+#submit {
+  margin-bottom: 2rem;
 }
